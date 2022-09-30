@@ -1,0 +1,285 @@
+
+#fixus {
+		position: relative;
+		margin-top: 150px;
+		margin-bottom: 50px;
+	
+}
+
+#fixus::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 1px;
+	left: -1px;
+	top: 0;
+	border: 14px solid transparent;
+	border-right: 14px solid #ddd;
+	border-bottom: 14px solid #ddd;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	border-right-color: blue ;
+	border-bottom-color: blue;
+
+}
+
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+  color: #ffffff;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.top {
+	font-size: 3rem;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	display: none;
+	border: solid 1px #ffffff;
+	z-index: 2;
+ }
+
+
+ .footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+ }
+
+.footer ul {
+	list-style-type: none;
+}
+ ::placeholder {
+	color: white;
+	padding-left: 0;
+}
+
+#bike {
+	position: relative;
+	padding-top: 50px;
+}
+
+#bike::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 1px;
+	left: -1px;
+	top: 0;
+	border: 14px solid transparent;
+	border-right: 14px solid #ddd;
+	border-bottom: 14px solid #ddd;
+	text-align: center;
+	display: block;
+	margin: -50px auto;
+	border-right-color: green ;
+	border-bottom-color: green ;
+
+}
+
+@media only screen and (max-width:1200px) {
+	img {
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width:767px) {
+
+	 #auto{
+		width: 100%;
+		padding-top: 70px;
+	 }
+
+		#logo{
+		  width: 100px;
+		  margin-right: 0px;
+		}
+		#breadcrumb{
+		  padding-top: 0px; 
+		}
+		#riba{
+		  font-size: xx-small;
+		  font-weight: bold;
+		}
+
+		#navbar{
+		  display: none;
+		  
+		}
+		#pakkumine{
+		padding: 10px 0px 10px 0px;
+		width: 100%;
+		position: fixed; 
+		bottom: 0px;
+		right: 0px; 
+		font-weight: bold;
+		border: 1px solid #ffffff;
+		border-radius: 0;
+	  }
+	  #autod{
+		 position: relative;
+		 z-index: -1;
+	  }
+	  #bike {
+		position: relative;
+		z-index: -1;
+	 }
+
+	 }
+	 @media screen and (min-width:767px) and (max-width:1200px) {
+				
+	    #logo{
+		  width: 100px;
+		  margin-right: 0px;
+		}
+		#breadcrumb{
+		  padding-top: 0px; 
+		}
+		#riba{
+		  font-size: x-small;
+		  font-weight: bold;
+		}
+
+		#sideNav{
+		 visibility: hidden;
+	  }
+	  #pakkumine{
+		padding: 10px 30px 10px 30px;
+		margin-bottom: 10px; 
+		position: fixed; 
+		bottom: 10px; right: 100px; 
+		font-weight: bold;
+		border: 1px solid #ffffff;
+		border-radius: 0;
+	  }
+	 }
+	 
+	 @media screen and (min-width:1200px) {
+
+		#bike{
+		   padding-left: 300px;
+			padding-right: 300px;
+			margin-top: 200px;
+		}
+
+		#autod{
+		  padding: 0px 350px 0px 350px; 
+		  margin-top: 75px;
+		}
+		#fixus{
+		  padding-left: 200px; 
+		  padding-right: 200px; 
+		  margin-top: 200px;
+		}
+		#logo{
+		  width: 175px;
+		  margin-right: 50px;
+		}
+		#breadcrumb{
+		  margin-top: 20px; 
+		}
+
+		#riba{
+		  font-size: small;
+		  font-weight: bold;
+		}
+		#dropdown{
+		  position: fixed; 
+		  right: 500px;
+		}
+
+		#epood{
+		  position: absolute;
+		  right: 50px; 
+		  font-size: small; 
+		  padding: 10px 30px 10px 30px;
+		}
+
+	   #sideNav{
+		 visibility: hidden;
+	  }
+	   #pakkumine{
+		padding: 10px 30px 10px 30px;
+		margin-bottom: 10px; 
+		position: fixed; 
+		bottom: 10px; right: 100px; 
+		font-weight: bold;
+		border: 1px solid #ffffff;
+		border-radius: 0;
+	  }
+	 }
+	 .sidenav {
+	 height: 100%;
+	 width: 0;
+	 position: fixed;
+	 z-index: 1;
+	 top: 0;
+	 left: 0;
+	 background-color: rgba(22,76,169,255);
+	 overflow-x: hidden;
+	 transition: 0.5s;
+	 padding-top: 60px;
+  }
+  
+  .sidenav a {
+	 padding: 8px 8px 8px 32px;
+	 text-decoration: none;
+	 font-size: 25px;
+	 color: white;
+	 display: block;
+	 transition: 0.4s;
+	 text-align: center;
+  }
+  
+  
+  .sidenav .closebtn {
+	 position: absolute;
+	 top: 0;
+	 right: 25px;
+	 font-size: 36px;
+	 margin-left: 50px;
+  }
+
+  .car {
+	  position: relative;
+  }
+  .car::before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 1px;
+	left: -1px;
+	top: 0;
+	border: 14px solid transparent;
+	border-right: 14px solid #ddd;
+	border-bottom: 14px solid #ddd;
+	text-align: center;
+	display: block;
+	margin: 50px auto;
+	border-right-color: yellow ;
+	border-bottom-color: yellow ;
+
+}
+
+
+  
+  @media screen and (max-height: 450px) {
+	 .sidenav {padding-top: 15px;}
+	 .sidenav a {font-size: 18px;}
+  }
+
+  .footer-bottom-area {
+	  background-color: rgb(36, 69, 233);
+	  height: 90px;
+	  color: #ddd;
+  }
+
+  footer li:hover {
+	  color: #ffc803;
+  }

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="newfix.css">
+	<title>Fixus</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+	<nav class="navbar navbar-expand-sm fixed-top" style="background-color: white; height: 100px; padding-top: 0%; margin-bottom: 10px; box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);" id="navbar">  
+		<a class="navbar-brand" href="#">
+			<img class="logo" src="img/fixus-logo.png" alt="logo" id="logo">
+		</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<ul class="breadcrumb" style="background-color: white;" id="breadcrumb">
+			<li class="breadcrumb-item">
+			<a class="text-body riba" href="fixus.html">AVALEHT </a>
+			</li>
+			 <li class="breadcrumb-item">
+			  <a class="text-body riba" href="https://fixus.ee/autokaubad/">AUTOKAUBAD</a>
+			</li>
+			<li class="breadcrumb-item">
+			  <a class="text-body riba" href="#">RATTAPOED</a>
+			</li>
+			<li class="breadcrumb-item">
+			  <a class="text-body riba" href="#">AUTOTEENINDUSED</a>
+			</li>
+			<li class="breadcrumb-item">
+			  <a class="text-body riba" href="#">KLIENDIKAART</a>
+			</li>
+			<li class="breadcrumb-item">
+			  <a class="text-body riba" href="#">FIXUS</a>
+			</li>
+			<ul class="navbar-nav" style="margin-left: 10px;">
+			  <li class="nav-group dropdown" >
+			  <img src="img/estLipp.png" id="est" style="width:20px;">
+					  <a class="dropdown-group" href="#" data-toggle="dropdown">Eesti</a>
+				  <div class="dropdown-menu text-center">
+			  <img src="img/rusLipp.png" style="width:20px;";>
+						 <a class="dropdown-group" href="#" data-toggle="dropdown">Русский</a>
+				  </div>
+					</li>
+					</ul>          
+			<li class="nav-item">
+			  <button id="epood" type="button" class="btn btn-primary" style="background-color: rgba(22,76,169,255); border-radius: 0;">E-POOD</button>
+			</li>  
+	  </ul>
+	</nav>
+	
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">Parimad auto- ja rattakaubad üle Eesti</a>
+		<a href="#">Autokaubad</a>
+		<a href="#">Rattapoed</a>
+		<a href="#">Autoteenindused</a>
+		<a href="#">Kliendikaart</a>
+		<a href="#">Fixus</a>
+		<a href="#"><img src="img/estLipp.png" style="width:20px; height: 10px;  margin-right: 10px;">Eesti</a>
+		<a href="#"><img src="img/rusLipp.png" style="width:20px; height: 10px; margin-right: 10px;">Русский</a>
+		<img class="mx-auto d-block" src="img/fixus-logo.png" style="width: 200px;">
+	 </div>
+	 <div class="container-fluid" id="sideNav" style="background-color: white; padding-top: 20px;">
+	 <img src="img/fixus-logo.png" style="width: 30%;">
+	 <button id="nupp" type="button" class="btn btn-primary" style="background-color: rgba(22,76,169,255); position: fixed; right: 5%; font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+	 </div>
+
+	 <!-- Sidenav Full-width -->
+  <script>
+
+  function openNav() {
+	 document.getElementById("mySidenav").style.width = "100%";
+  }
+  
+  function closeNav() {
+	 document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
+<div class="banner container-fluid text-center"  >
+	<img class="img-fluid" style="width: 200%;" src="img/fix-paevad-mobiil.jpg" alt="banner">
+ </div>
+ 
+
+ <div class="container" id="fixus">
+		 
+	<h1 style="text-align: center; font-weight: bold; font-size: 300%; padding-top: 100px;">Fixus autokaubad -  <br> valmis Sind teenindama üle Eesti</h1>
+	<p class="text-muted" style="text-align: center;">Meie valikust leiad kõik vajalikud autokaubad: autovaruosad, rehvid, akud, autokeemia, tarvikud, <br> tööriistad, garaažiseadmed jm. autoomanikule tarvilikud tooted. Samuti töötab enamike Fixus <br> kaupluste juures ka autoteenindus. Fixus kaubamärk ühendab täna üle 50 ettevõtte Eesti <br> erinevates linnades ja maakondades.</p>
+ </div>
+ <div class="container-fluid" id="autod">
+	<div class="row justify-content-center" style="margin-bottom: 50px;">
+	   <div class="col-12 col-md-2 align-items-center">
+				<img src="img/varuosad-4x-1.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Sõiduauto varuosad</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Pidurisüsteemi osad, veermikuosad, mootoriosad, summutid, elektrisüsteemi osad, jõuülekanne, kereosad, toitesüsteemi osad, autode eelsoojendussüsteemid</p>
+		</div>
+	   
+		<div class="col-12 col-md-2 align-items-center">
+			
+				<img src="img/lisatarvikud-alt3.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Lisatarvikud</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Autopesutarvikud, elektrilised tarvikud, katuseraamid ja -boksid, istmekatted, ilukilbid, salongi- ja pagasimatid, ohutustarvikud, klaasipuhastid, rehvitarvikud, tuuning</p>
+			
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">
+			
+				<img src="img/rehvid-4x.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Rehvid ja veljed</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Sõiduautorehvid, kaubikurehvid, veoautorehvid, ATV rehvid, valuveljed, plekkveljed, TPMS rehvirõhuandurid, rattapoldid ja –mutrid, siselohvid, ventiilid, pumbad, manomeetrid</p>
+			
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">
+			
+				<img src="img/sub_image_06.jpg" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Õlid ja määrdeained</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Mootoriõlid sõiduautodele, mootoriõlid raskeveokitele, transmissiooniõlid ja –vedelikud, määrded, pidurivedelikud, 2-taktilised mootoriõlid, tööstusõlid ja -vedelikud</p>
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">
+				<img src="img/autokeemia-4x-1.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Autokeemia</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Autohoolduskemikaalid, klaasipesu- ja jahutusvedelikud, kütuse- ja õlilisandid, motohoolduskemikaalid, korrosioonikaitse vahendid, pahtlid, aerosoolvärvid, hermeetikud</p>
+		</div>      
+	</div> 
+
+	<div class="row  justify-content-center ">
+	  <div class="col-12 col-md-2">
+		  <div class="container">
+			  <img src="img/akud-4x-1.png" class="mx-auto d-block" style="height: 100px; width: auto;  margin-bottom: 20px;">
+			  <h5 style="font-weight: bold; text-align: center; font-size: medium;">Akud</h5>
+			  <p class="text-muted" style="font-size: small; text-align: center;">Sõiduautode akud, veoautode akud, mootorrataste akud, tarbimisakud, akulaadijad, akukaablid, akuklemmid, Start/Stop abiakud,
+		 murutraktorite akud</p>
+		</div>
+	</div>
+
+		 <div class="col-12 col-md-2">
+				 <img src="img/haagiste_varuosad_2.png" class="mx-auto d-block" style="height: 100px; width: auto;  margin-bottom: 20px;">
+				 <h5 style="font-weight: bold; text-align: center; font-size: medium;">Haagiste varuosad</h5>
+				 <p class="text-muted" style="font-size: small; text-align: center;">Elektriosad, hüdraulikaosad, pneumaatikaosad, piduriosad, Jost-haagise komponenid, TAV haakeseadmed</p>
+			</div>
+
+			<div class="col-12 col-md-2">
+					<img src="img/veoauto_tarvikud_Ilukilp_167px.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+					<h5 style="font-weight: bold; text-align: center; font-size: medium;">Veoauto tarvikud</h5>
+					<p class="text-muted" style="font-size: small; text-align: center;">Autopesutarvikud, elektrilised tarvikud, ohutustarvikud, klaasipuhastid, rehvitarvikud, koormkinnitus, tuleohutus, salongitarvikud, välistarvikud, märgistus ja kleebised</p>
+			</div>
+
+		 <div class="col-12 col-md-2">
+				 <img src="img/veoauto_varuosad_3.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				 <h5 style="font-weight: bold; text-align: center; font-size: medium;">Veoauto varuosad</h5>
+				 <p class="text-muted" style="font-size: small; text-align: center;">Pidurisüsteemi osad, veermikuosad, mootoriosad, summutid, elektrisüsteemi osad, jõuülekanne, kereosad, toitesüsteemi osad, autode eelsoojendussüsteemid, hüdraulikaosad, pneumaatikaosad</p>
+		 </div>
+			
+
+		 <div class="col-12 col-md-2">
+				 <img src="img/lisatarvikud-4x-1.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				 <h5 style="font-weight: bold; text-align: center; font-size: medium;">Tööriistad ja seadmed</h5>
+				 <p class="text-muted" style="font-size: small; text-align: center;">Käsitööriistad, autoremondi eritööriistad, suruõhutööriistad, garaažiseadmed ja tõstukid, kinnitusvahendid, puhastustehnika, akulaadijad, keevitusseadmed, kulutarvikud</p>
+		 </div>      
+	</div> 
+ </div>
+	<button  class="btn btn-primary mx-auto d-block" style="background-color:rgb(37, 118, 240); font-size: x-small; padding: 20px 50px 20px 50px; margin-top: 20px; border-radius: 0;">LEIA LÄHIM FIXUS AUTOKAUPADE POOD</button>
+
+
+
+
+
+	<section class="sponsors mt-5" id="sponsors">
+      <div class="container">
+				<div class="row ">
+              <div class="col">
+                <div class="owl-carousel">
+                    <div class="item text-center bg-white">
+                        <img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_01.png" alt="">
+                    </div>
+
+                    <div class="item text-center bg-white">
+                        <img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_02.png" alt="">
+                    </div>
+
+						  <div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_03.png" alt="">
+					  	  </div>
+
+					     <div class="item text-center bg-white">
+						      <img class="mx-auto" style="height:170px; width: auto; "src="img/Sponsors/sponsor_04.png" alt="">
+				  			</div>
+
+				  			<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; "src="img/Sponsors/sponsor_05.png" alt="">
+						   </div>
+
+			  				<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_06.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_07.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_08.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_09.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_10.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_11.png" alt="">
+							</div>		
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto"  style="height:170px; width: auto; " src="img/Sponsors/sponsor_12.png" alt="">
+							</div>
+
+
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <div class="container-fluid car" style="background-color: rgba(22,76,169,255); height: 550px; padding-top: 175px;">
+	<h1 style="text-align: center; font-weight: bold; font-size: 300%; color: white;">Fixus autoteenindused</h1><br>
+	<p style="color: rgb(146, 141, 141);text-align: center;">45 Fixus autoteenindust üle Eesti - leia endale sobivaim!</p>
+	<img id="car" src="img/car-copyright.png" alt="" class="mx-auto d-block" style="margin-top: 50px;">
+ </div>
+ <button  class="btn btn-primary mx-auto d-block mb-5" style="background-color:#164da8; font-size: x-small; padding: 20px 50px 20px 50px; margin-top: 150px; border-radius: 0;">LEIA LÄHIM AUTOTEENINDUS</button>
+ 
+
+
+
+ <div class="container" id="bike">
+		 
+	<h1 style="text-align: center; font-weight: bold; font-size: 300%;">Fixus jalgrattad ja vabaajatooted</h1>
+	<p class="text-muted text-center mb-5" >Valikus jalgrattad, tarvikud, varuosad, riided ja kõik muu jalgrattaspordiga seonduv varustus ...</p>
+ </div>
+ <div class="container-fluid" id="autod"> 
+	<div class=" row justify-content-center" >
+	   <div class="col-12 col-md-2 text-center">
+				<img src="img/jalgrattad-2x.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Jalgrattad</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Linnarattad, maastikurattad, maanteerattad, lasterattad, tõukerattad, elektrirattad, trikirattad, hübriidrattad</p>
+		</div>
+	   
+		<div class="col-12 col-md-2 align-items-center">			
+				<img src="img/tarvikud-2x.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Lisavarustus</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Pakiraamid, korvid, kotid, porilauad, joogipudelid, spidomeetrid, lukud, kellad, sarved, tugijalad, peeglid, tuled, lastetoolid</p>			
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">		
+				<img src="img/kiiver.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Tarvikud</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Kiivrid, kingad, riided, prillid, toidulisandid, treeningpukid, rattahoidikud, autohoidikud, määrded, kemikaalid, tööriistad</p>		
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">		
+				<img src="img/varuosad-2x.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Jalgrataste varuosad</h5>
+				<p class="text-muted" style="font-size: small; text-align: center;">Rehvid, jooksud, ketid, kassetid, vändad, pedaalid, käiguvahetajad, trossid, kõrid, amordid, sadulad, pidurid, hammasrattad</p>
+		</div>
+		
+		<div class="col-12 col-md-2 align-items-center">
+				<img src="img/Jalgratta-hooldus.png" class="mx-auto d-block" style="height: 100px; width: auto; margin-bottom: 20px;">
+				<h5 style="font-weight: bold; text-align: center; font-size: medium;">Jalgrataste hooldus / remont</h5>
+				<p class="text-muted" style="font-size: small; text-align: center; ">Jalgrataste ülevaatus, lihthooldus, täishooldus, remont, rattapesu, lisavarustuse paigaldus.</p>
+		</div>      
+	</div> 
+</div>	
+
+	<button type="button" class="btn btn-success mx-auto d-block mb-5" style="font-size: x-small; padding: 20px 50px 20px 50px; margin-top: 20px; background-color: #2eb82e!important; border-radius: 0;">LEIA LÄHIM FIXUS RATTAPOOD</button>
+
+
+	<section class="sponsors mt-5" id="sponsors">
+      <div class="container">
+				<div class="row ">
+              <div class="col">
+                <div class="owl-carousel">
+                    <div class="item text-center bg-white">
+                        <img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_01.png" alt="">
+                    </div>
+
+                    <div class="item text-center bg-white">
+                        <img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_02.png" alt="">
+                    </div>
+
+						  <div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_03.png" alt="">
+					  	  </div>
+
+					     <div class="item text-center bg-white">
+						      <img class="mx-auto" style="height:170px; width: auto; "src="img/Sponsors/sponsor_t_04.png" alt="">
+				  			</div>
+
+				  			<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; "src="img/Sponsors/sponsor_t_05.png" alt="">
+						   </div>
+
+			  				<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_06.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_07.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_08.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_09.png" alt="">
+							</div>
+
+							<div class="item text-center bg-white">
+								<img class="mx-auto" style="height:170px; width: auto; " src="img/Sponsors/sponsor_t_10.png" alt="">
+							</div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <footer>
+	<div>
+		<div class=" jumbotron container-fluid mt-5 mb-0">
+			 <div class="row footer ">
+					<div class="col-lg-4 col-md-6 col-sm-10">
+					<p>Jäta siia ainult Fixus kaubamärki puudutavad üldised küsimused.</p>
+					<form action="">
+					<div class="form-group">
+						<input type="text" class="form-control form-control-lg" placeholder="Nimi" id="name" style=" border-radius: 0; background-color: rgba(244,238,237,255); border-color: rgba(22,76,169,255); font-size: medium; margin-bottom: 20px;">
+					 </div>
+					 <div class="form-group">
+						<input type="email" class="form-control form-control-lg" placeholder="E-mail" id="email" style="border-radius: 0; background-color: rgba(244,238,237,255); border-color: rgba(22,76,169,255); font-size: medium; margin-bottom: 20px;">
+					 </div>
+					 <div class="form-group">
+						<input type="text" class="form-control form-control-lg" placeholder="Sõnum" id="sonum" style="border-radius: 0; background-color: rgba(244,238,237,255); border-color: rgba(22,76,169,255); font-size: medium; height: 75px; margin-bottom: 20px;">
+					 </div>
+					 <button type="submit" class="btn btn-primary" style="background-color:rgba(22,76,169,255); padding: 20px 50px 20px 50px; font-size: x-small; border-radius: 0; ">SAADA KIRI</button>
+				  </div>
+					</form>
+
+				  <div class="col-lg-2 col-sm-10">
+					<h4 class="ftr-teenus" style="padding-left: 35px;">Teenused</h4>
+					<ul class="mt-4">
+						 <li>E-pood</li>
+						 <li>Autokaubad</li>
+						 <li>Autoteenindused</li>
+						 <li>Rattapoed</li>
+						 <li>Fixus autokeemia</li>
+					</ul>
+
+				  </div>
+					<div class="col-lg-2 col-sm-10">
+					<h4 class="ftr-teenus" style="padding-left: 35px;">Lisainfo</h4>
+			  <ul class="mt-4">
+					<li>Balti Autoosad</li>
+					<li>Fixus</li>
+					<li>Liising</li>
+					<li>Fixus meedia</li>
+					<li>Andmekaitsetingimused</li>
+			  </ul>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-10">
+					<h4>Uudiskiri</h4>
+						 <form class="footer-newsletter" action="#"></form>
+						 <input class="form-control mt-5"  type="text" placeholder="E-mail address" style="background-color: #164da8!important; border-radius: 0;">
+						 <input class="btn btn-primary mt-3" type="submit" style="border-radius: 0;" value="LIITU" >
+						 <p>Ole kursis parimate pakkumistega!</p>
+					</div>
+
+			  </div>
+	</div>
+
+	</footer>
+
+	<a class="top" href="" id="top">
+		<i class="fas fa-chevron-circle-up"></i>
+  </a>
+
+	<div class="footer-bottom-area">
+		 <div class="container">
+			  <div class="row pt-4">
+					<div class="col-7">
+						 <div class="copywrite-text">
+							  <p>
+								Kõik õigused kaitstud © 
+									<a class="text-footer-bottom-area" style="color: white;" href="https://www.autoparts.ee/">Balti Autoosad AS</a>
+									2022
+							  </p>
+						 </div>
+					</div>
+					<div class="col-5">
+						 <div class="social-btn-group d-flex align-items-center justify-content-end"> 
+							  <i class="fab fa-facebook-f text-white"></i>
+							  
+						 </div>
+					</div>
+			  </div>
+	</div>    
+	</div>
+
+	
+	<button type="button" id="pakkumine" class="btn btn-warning" style="z-index: 1;">KÜSI PAKKUMIST</button>
+
+	
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+  crossorigin="anonymous"></script>
+
+<!-- Вариант 2: Bootstrap JS отдельно от Popper
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+-->
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+
+
+<script src="/js/arrow.js"></script>
+<script src="js/owl.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+  </body>
+</html>
